@@ -1,0 +1,13 @@
+{
+  "model_name": "gpt2-medium",
+  "receiver_nodes": [
+    [
+      "blocks.23.hook_resid_post",
+      null
+    ]
+  ],
+  "component": "z",
+  "position": -1,
+  "freeze_mlps": false,
+  "indirect_patch": false
+}

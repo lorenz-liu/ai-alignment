@@ -1,0 +1,50 @@
+=== Running on device: NVIDIA A800-SXM4-80GB ===
+Moving model to device:  cuda
+Finished loading pretrained model gpt2 into EasyTransformer!
+
+=== Types of prompts ===
+Here are two of the prompts from the dataset: ['After the lunch, Matthew and Andrew went to the hospital. Matthew gave a basketball to Andrew', 'Then, Alicia and Jason were thinking about going to the garden. Alicia wanted to give a drink to Jason']
+
+=== SAVED: model_logit_diff_and_circuit_logit_diff.png ===
+
+=== SAVED: effect_of_patching_path.png ===
+
+--- Name Mover heads --- 
+Copy circuit for head 9.9 (sign=1) : Top 5 accuracy: 100.0%
+Copy circuit for head 10.0 (sign=1) : Top 5 accuracy: 96.66666666666667%
+Copy circuit for head 9.6 (sign=1) : Top 5 accuracy: 96.26666666666667%
+
+--- Negative heads --- 
+Copy circuit for head 10.7 (sign=-1) : Top 5 accuracy: 100.0%
+Copy circuit for head 11.10 (sign=-1) : Top 5 accuracy: 100.0%
+
+---  Random heads for control ---  
+Copy circuit for head 5.0 (sign=1) : Top 5 accuracy: 0.26666666666666666%
+Copy circuit for head 2.2 (sign=1) : Top 5 accuracy: 0.0%
+Copy circuit for head 9.10 (sign=1) : Top 5 accuracy: 0.0%
+
+=== SAVED: effect_of_patching_path.png ===
+
+=== SAVED: attention_of_NMs_from_END_to_various_positions.png ===
+
+=== SAVED: attention_of_NMs_from_END_to_various_positions.png ===
+
+=== SAVED: logit_diff_per_signal.png ===
+
+Recall that the initial logit diff is 3.625904083251953
+
+After knocking out the three most important MLPs, logit diff is 3.407790184020996
+
+=== SAVED: direct_effect_of_removing_heads_on_logit_diff.png ===
+
+=== SAVED: direct_effect_of_removing_heads_on_logit_diff.png ===
+
+=== SAVED: most_important_heads_by_direct_effect_on_logits.png ===
+
+=== SAVED: most_important_heads_by_direct_effect_on_logits.png ===
+
+=== SAVED: attention_pattern_for_induction_mode.png ===
+
+=== SAVED: attention_pattern_for_duplicate_mode.png ===
+
+=== SAVED: attention_pattern_for_previous_mode.png ===
