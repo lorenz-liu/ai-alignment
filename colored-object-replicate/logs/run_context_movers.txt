@@ -1,0 +1,124 @@
+Using config Namespace(model_name='gpt2-medium', receiver_nodes=[[11, 6], [11, 7], [12, 15]], component='v', position=-5, freeze_mlps=False, indirect_patch=False)
+Loading Model
+Loaded pretrained model gpt2-medium into HookedTransformer
+Done loading...
+normal input Q: On the table, I see an orange textbook, a red puzzle, and a purple cup. What color is the textbook?
+A: Orange
+Q: On the table, there is a blue pencil, a black necklace, and a yellow lighter. What color is the pencil?
+A:  Blue mindiff Q: On the table, I see an orange textbook, a red puzzle, and a purple cup. What color is the textbook?
+A: Orange
+Q: On the table, there is a blue pencil, a black necklace, and a yellow lighter. What color is the necklace?
+A: co_labs  Black
+Component: v
+tensor(-0.3129, device='cuda:0') tensor(0.7005, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:24
+normal input Q: On the floor, you see a blue ball, a black necklace, and a yellow mug. What color is the mug?
+A: Yellow
+Q: On the table, I see a purple cup, a red plate, and a brown envelope. What color is the envelope?
+A:  Brown mindiff Q: On the floor, you see a blue ball, a black necklace, and a yellow mug. What color is the mug?
+A: Yellow
+Q: On the table, I see a purple cup, a red plate, and a brown envelope. What color is the cup?
+A: co_labs  Purple
+Component: v
+tensor(-0.5569, device='cuda:0') tensor(0.8010, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the desk, I see a purple lighter, a green leash, and a black necklace. What color is the lighter?
+A: Purple
+Q: On the floor, you see a red pen, an orange puzzle, and a yellow ball. What color is the pen?
+A:  Red mindiff Q: On the desk, I see a purple lighter, a green leash, and a black necklace. What color is the lighter?
+A: Purple
+Q: On the floor, you see a red pen, an orange puzzle, and a yellow ball. What color is the ball?
+A: co_labs  Yellow
+Component: v
+tensor(-0.4359, device='cuda:0') tensor(0.7438, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the desk, I see a red textbook, a blue pencil, and a purple pen. What color is the pencil?
+A: Blue
+Q: On the desk, I see an orange ball, a brown envelope, and a black notebook. What color is the ball?
+A:  Orange mindiff Q: On the desk, I see a red textbook, a blue pencil, and a purple pen. What color is the pencil?
+A: Blue
+Q: On the desk, I see an orange ball, a brown envelope, and a black notebook. What color is the envelope?
+A: co_labs  Brown
+Component: v
+tensor(-0.6685, device='cuda:0') tensor(0.3190, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:26
+normal input Q: On the floor, I see a purple textbook, a blue notebook, and a green lighter. What color is the notebook?
+A: Blue
+Q: On the table, you see a yellow ball, an orange bowl, and a black bottle. What color is the ball?
+A:  Yellow mindiff Q: On the floor, I see a purple textbook, a blue notebook, and a green lighter. What color is the notebook?
+A: Blue
+Q: On the table, you see a yellow ball, an orange bowl, and a black bottle. What color is the bottle?
+A: co_labs  Black
+Component: v
+tensor(-0.9308, device='cuda:0') tensor(0.4745, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the desk, there is a yellow bottle, a blue ball, and a purple textbook. What color is the ball?
+A: Blue
+Q: On the desk, there is a black plate, a green jug, and a red pen. What color is the jug?
+A:  Green mindiff Q: On the desk, there is a yellow bottle, a blue ball, and a purple textbook. What color is the ball?
+A: Blue
+Q: On the desk, there is a black plate, a green jug, and a red pen. What color is the plate?
+A: co_labs  Black
+Component: v
+tensor(-0.3721, device='cuda:0') tensor(0.7338, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the desk, you see an orange necklace, a blue bottle, and a brown pencil. What color is the bottle?
+A: Blue
+Q: On the table, you see a black bowl, a green textbook, and a purple cup. What color is the bowl?
+A:  Black mindiff Q: On the desk, you see an orange necklace, a blue bottle, and a brown pencil. What color is the bottle?
+A: Blue
+Q: On the table, you see a black bowl, a green textbook, and a purple cup. What color is the textbook?
+A: co_labs  Green
+Component: v
+tensor(-1.0050, device='cuda:0') tensor(0.6055, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:26
+normal input Q: On the desk, I see a brown necklace, a yellow plate, and a green cup. What color is the necklace?
+A: Brown
+Q: On the floor, there is a purple mug, an orange notebook, and a red pen. What color is the pen?
+A:  Red mindiff Q: On the desk, I see a brown necklace, a yellow plate, and a green cup. What color is the necklace?
+A: Brown
+Q: On the floor, there is a purple mug, an orange notebook, and a red pen. What color is the mug?
+A: co_labs  Purple
+Component: v
+tensor(-0.3293, device='cuda:0') tensor(0.9263, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the table, you see a black mug, a red puzzle, and a yellow bracelet. What color is the puzzle?
+A: Red
+Q: On the table, you see a green plate, a blue bowl, and a brown leash. What color is the bowl?
+A:  Blue mindiff Q: On the table, you see a black mug, a red puzzle, and a yellow bracelet. What color is the puzzle?
+A: Red
+Q: On the table, you see a green plate, a blue bowl, and a brown leash. What color is the plate?
+A: co_labs  Green
+Component: v
+tensor(-0.4459, device='cuda:0') tensor(0.6129, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:26
+normal input Q: On the floor, you see a yellow notebook, a red bottle, and a black envelope. What color is the envelope?
+A: Black
+Q: On the table, I see a blue necklace, a green bowl, and an orange mug. What color is the necklace?
+A:  Blue mindiff Q: On the floor, you see a yellow notebook, a red bottle, and a black envelope. What color is the envelope?
+A: Black
+Q: On the table, I see a blue necklace, a green bowl, and an orange mug. What color is the bowl?
+A: co_labs  Green
+Component: v
+tensor(-0.9884, device='cuda:0') tensor(0.3244, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the floor, you see a red mug, a purple bowl, and a black ball. What color is the mug?
+A: Red
+Q: On the table, I see an orange envelope, a brown textbook, and a yellow leash. What color is the envelope?
+A:  Orange mindiff Q: On the floor, you see a red mug, a purple bowl, and a black ball. What color is the mug?
+A: Red
+Q: On the table, I see an orange envelope, a brown textbook, and a yellow leash. What color is the textbook?
+A: co_labs  Brown
+Component: v
+tensor(-0.5854, device='cuda:0') tensor(0.7955, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+normal input Q: On the desk, I see a purple puzzle, a yellow mug, and a brown bowl. What color is the puzzle?
+A: Purple
+Q: On the floor, there is an orange bottle, a green ball, and a red envelope. What color is the ball?
+A:  Green mindiff Q: On the desk, I see a purple puzzle, a yellow mug, and a brown bowl. What color is the puzzle?
+A: Purple
+Q: On the floor, there is an orange bottle, a green ball, and a red envelope. What color is the bottle?
+A: co_labs  Orange
+Component: v
+tensor(-0.7573, device='cuda:0') tensor(0.5918, device='cuda:0') DFF
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
