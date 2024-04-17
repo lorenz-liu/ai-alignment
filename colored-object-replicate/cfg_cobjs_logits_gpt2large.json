@@ -1,0 +1,13 @@
+{
+  "model_name": "gpt2-large",
+  "receiver_nodes": [
+    [
+      "blocks.35.hook_resid_post",
+      null
+    ]
+  ],
+  "component": "z",
+  "position": -1,
+  "freeze_mlps": false,
+  "indirect_patch": false
+}

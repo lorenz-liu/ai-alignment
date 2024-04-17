@@ -1,0 +1,13 @@
+{
+  "model_name": "gpt2-small",
+  "receiver_nodes": [
+    [
+      "blocks.11.hook_resid_post",
+      null
+    ]
+  ],
+  "component": "z",
+  "position": -1,
+  "freeze_mlps": false,
+  "indirect_patch": false
+}

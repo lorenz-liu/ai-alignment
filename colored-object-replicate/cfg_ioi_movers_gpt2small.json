@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt2-small",
+  "receiver_nodes": [
+    [9,9],
+    [10,0],
+    [9,6]
+  ],
+  "component": "q",
+  "position": -5,
+  "freeze_mlps": false,
+  "indirect_patch": false
+}
